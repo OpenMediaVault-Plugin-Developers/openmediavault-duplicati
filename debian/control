@@ -1,0 +1,30 @@
+Source: openmediavault-duplicati
+Section: net
+XB-Plugin-Section: backup
+Priority: optional
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Build-Depends: debhelper (>= 9.0.0 )
+Standards-Version: 3.9.6
+Homepage: http://omv-extras.org/
+
+Package: openmediavault-duplicati
+Architecture: all
+Depends: duplicati,
+         openmediavault (>= 3.0.58)
+         ${misc:Depends}
+Description: openmediavault duplicati plugin
+ Duplicati is a free, open source, backup client that securely stores
+ encrypted, incremental, compressed backups on cloud storage services
+ and remote file servers. It works with:
+ * Amazon S3
+ * OneDrive
+ * Google Drive (Google Docs)
+ * Rackspace Cloud Files
+ * HubiC
+ * Backblaze (B2)
+ * Amazon Cloud Drive (AmzCD)
+ * Swift / OpenStack
+ * WebDAV
+ * SSH (SFTP)
+ * FTP
+ * and more

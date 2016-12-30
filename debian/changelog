@@ -1,0 +1,5 @@
+openmediavault-duplicati (3.0) stable; urgency=low
+
+  * Initial release
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Fri, 30 Dec 2016 10:56:22 -0600

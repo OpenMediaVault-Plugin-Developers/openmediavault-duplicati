@@ -1,1 +1,4 @@
-# openmediavault-duplicati
+openmediavault-duplicati
+========================
+
+duplicati plugin for openmediavault

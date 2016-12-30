@@ -1,0 +1,25 @@
+{
+	"type": "config",
+	"id": "conf.service.duplicati",
+	"title": "Duplicati",
+	"queryinfo": {
+		"xpath": "//services/duplicati",
+		"iterable": false
+	},
+	"properties": {
+		"enable": {
+			"type": "boolean",
+			"default": 0
+		},
+		"port": {
+			"type": "integer",
+			"minimum": 1,
+			"maximum": 65535,
+			"default": 8200
+		},
+		"listen-address": {
+			"type": "string",
+			"default": "127.0.0.1"
+		}
+	}
+}
