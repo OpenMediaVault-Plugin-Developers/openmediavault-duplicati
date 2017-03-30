@@ -4,7 +4,7 @@
 # @author    Volker Theile <volker.theile@openmediavault.org>
 # @author    OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 # @copyright Copyright (c) 2009-2013 Volker Theile
-# @copyright Copyright (c) 2013-2016 OpenMediaVault Plugin Developers
+# @copyright Copyright (c) 2013-2017 OpenMediaVault Plugin Developers
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -42,6 +42,7 @@ case "$1" in
             omv_config_add_key "${SERVICE_XPATH}" "listen-address" "127.0.0.1"
         fi
 
+        mono /usr/lib/duplicati/mozroots.exe --import --sync || :
         omv-mkconf duplicati
 
         dpkg-trigger update-fixperms

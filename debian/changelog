@@ -1,3 +1,9 @@
+openmediavault-duplicati (3.0.1) stable; urgency=low
+
+  * Update certs with mozroots
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Wed, 29 Mar 2017 21:36:55 -0500
+
 openmediavault-duplicati (3.0) stable; urgency=low
 
   * Initial release
