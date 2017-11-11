@@ -37,6 +37,4 @@ MONO_TLS_PROVIDER=legacy
 DAEMON_OPTS="--webservice-port=${port} --webservice-interface=${address}"
 EOF
 
-mono /usr/lib/duplicati/mozroots.exe --import --sync || :
-
 exit 0

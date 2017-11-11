@@ -9,8 +9,9 @@ Homepage: http://omv-extras.org/
 
 Package: openmediavault-duplicati
 Architecture: all
-Depends: duplicati,
-         openmediavault (>= 3.0.58)
+Depends: ca-certificates-mono,
+         duplicati,
+         openmediavault (>= 4.0.9)
          ${misc:Depends}
 Description: openmediavault duplicati plugin
  Duplicati is a free, open source, backup client that securely stores

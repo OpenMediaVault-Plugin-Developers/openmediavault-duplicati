@@ -42,7 +42,6 @@ case "$1" in
             omv_config_add_key "${SERVICE_XPATH}" "listen-address" "127.0.0.1"
         fi
 
-        mono /usr/lib/duplicati/mozroots.exe --import --sync || :
         omv-mkconf duplicati
 
         dpkg-trigger update-fixperms
